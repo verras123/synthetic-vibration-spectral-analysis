@@ -1,5 +1,10 @@
 # synthetic-vibration-spectral-analysis
 
+git clone https://github.com/verras123/synthetic-vibration-spectral-analysis.git
+cd synthetic-vibration-spectral-analysis
+pip install -r requirements.txt
+python run_all.py
+
 End-to-end vibration spectral analysis pipeline using **synthetic data**:
 **data generation + FFT/ASD (Welch) + peak detection + PCA + ML**.
 
