@@ -58,10 +58,7 @@ Python 3.10+ recommended.
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
-```
-
----
+pip install -r requirements.txt```
 
 ## Results (example outputs)
 
