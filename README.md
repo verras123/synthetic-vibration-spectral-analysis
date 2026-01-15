@@ -52,3 +52,25 @@ Python 3.10+ recommended.
 Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+## Results (example outputs)
+
+This repository includes example outputs generated locally:
+
+- Figures: `assets/figures/`
+- Metrics: `assets/metrics.json`
+
+### Figures gallery
+
+Below are sample plots produced by the pipeline.
+
+![FFT Spectrum](assets/figures/spectrum_fft_s0005_z.png)
+![ASD Spectrum](assets/figures/spectrum_asd_s0005_z.png)
+![PCA (FFT)](assets/figures/pca_fft_z_condition_level.png)
+
+### Metrics (JSON)
+
+The file `assets/metrics.json` contains the main evaluation metrics saved after running:
+
+```bash
+python 04_pca_and_ml_analysis.py --target condition_level
