@@ -1,14 +1,20 @@
 # synthetic-vibration-spectral-analysis
 
-git clone https://github.com/verras123/synthetic-vibration-spectral-analysis.git
-cd synthetic-vibration-spectral-analysis
-pip install -r requirements.txt
-python run_all.py
-
 End-to-end vibration spectral analysis pipeline using **synthetic data**:
 **data generation + FFT/ASD (Welch) + peak detection + PCA + ML**.
 
 This repository is NDA-safe and fully reproducible locally.
+
+---
+
+## Quickstart
+
+```bash
+git clone https://github.com/verras123/synthetic-vibration-spectral-analysis.git
+cd synthetic-vibration-spectral-analysis
+pip install -r requirements.txt
+python run_all.py
+```
 
 ---
 
@@ -50,8 +56,12 @@ Main steps:
 Python 3.10+ recommended.
 
 Install dependencies:
+
 ```bash
 pip install -r requirements.txt
+```
+
+---
 
 ## Results (example outputs)
 
@@ -74,3 +84,19 @@ The file `assets/metrics.json` contains the main evaluation metrics saved after 
 
 ```bash
 python 04_pca_and_ml_analysis.py --target condition_level
+```
+
+---
+
+## Notes
+
+- All data is synthetic (NDA-safe).
+- The folder `outputs/` is generated locally and ignored by Git.
+- The folder `data/raw/` is also generated locally and ignored by Git.
+- Example plots are stored in `assets/figures/` for quick visualization on GitHub.
+
+---
+
+## License
+
+MIT
