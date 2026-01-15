@@ -7,12 +7,12 @@ This repository is NDA-safe and fully reproducible locally.
 
 ---
 
-## Quickstart
+## Quickstart (Python 3.10+)
 
 ```bash
 git clone https://github.com/verras123/synthetic-vibration-spectral-analysis.git
 cd synthetic-vibration-spectral-analysis
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python run_all.py
 ```
 
@@ -38,7 +38,7 @@ Main steps:
   Generates synthetic acceleration signals and saves CSV files + metadata.
 
 - `02_extract_spectra_and_peaks.py`  
-  Computes FFT + ASD, detects peaks, exports tidy tables and figures.
+  Computes FFT + ASD/Welch, detects peaks, exports tidy tables and figures.
 
 - `04_pca_and_ml_analysis.py`  
   PCA + RandomForest regression/classification to predict the condition level.
@@ -53,17 +53,17 @@ Main steps:
 
 ## Requirements
 
-Python 3.10+ recommended.
+- Python 3.10+
+- See `requirements.txt`
 
-Install dependencies:
-
-```bash
-pip install -r requirements.txt```
+---
 
 ## Results (example outputs)
 
 This repository includes example outputs generated locally:
 
+- `outputs/` and `data/raw/` are generated locally (ignored by Git).
+- `assets/` contains example outputs committed for GitHub preview.
 - Figures: `assets/figures/`
 - Metrics: `assets/metrics.json`
 
