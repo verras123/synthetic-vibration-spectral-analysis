@@ -1,0 +1,141 @@
+{
+  "target": "condition_level",
+  "by_group": [
+    {
+      "transform": "ASD",
+      "axis": "total",
+      "n_samples": 60,
+      "n_features": 65,
+      "pca_explained_variance_ratio": [
+        0.3089234355674244,
+        0.15388802151322462,
+        0.12276245659806384,
+        0.08527848747490414,
+        0.0646207007517517
+      ],
+      "regression_r2": 0.9932391304347826,
+      "regression_rmse": 3.2861240255217257,
+      "classification_accuracy": 1.0,
+      "classification_report": "              precision    recall  f1-score   support\n\n         0.0       1.00      1.00      1.00         5\n       100.0       1.00      1.00      1.00         5\n        25.0       1.00      1.00      1.00         3\n        50.0       1.00      1.00      1.00         2\n        75.0       1.00      1.00      1.00         3\n\n    accuracy                           1.00        18\n   macro avg       1.00      1.00      1.00        18\nweighted avg       1.00      1.00      1.00        18\n"
+    },
+    {
+      "transform": "ASD",
+      "axis": "x",
+      "n_samples": 60,
+      "n_features": 65,
+      "pca_explained_variance_ratio": [
+        0.6178853757880866,
+        0.08077676781092329,
+        0.06043624591854101,
+        0.03595629600477168,
+        0.03248926039410297
+      ],
+      "regression_r2": 0.99065,
+      "regression_rmse": 3.864456983558981,
+      "classification_accuracy": 1.0,
+      "classification_report": "              precision    recall  f1-score   support\n\n         0.0       1.00      1.00      1.00         5\n       100.0       1.00      1.00      1.00         5\n        25.0       1.00      1.00      1.00         3\n        50.0       1.00      1.00      1.00         2\n        75.0       1.00      1.00      1.00         3\n\n    accuracy                           1.00        18\n   macro avg       1.00      1.00      1.00        18\nweighted avg       1.00      1.00      1.00        18\n"
+    },
+    {
+      "transform": "ASD",
+      "axis": "y",
+      "n_samples": 60,
+      "n_features": 65,
+      "pca_explained_variance_ratio": [
+        0.6240681537605387,
+        0.07268799383769406,
+        0.06525731562285511,
+        0.0369754199561623,
+        0.03360522871618766
+      ],
+      "regression_r2": 0.9929907608695652,
+      "regression_rmse": 3.345939703581043,
+      "classification_accuracy": 1.0,
+      "classification_report": "              precision    recall  f1-score   support\n\n         0.0       1.00      1.00      1.00         5\n       100.0       1.00      1.00      1.00         5\n        25.0       1.00      1.00      1.00         3\n        50.0       1.00      1.00      1.00         2\n        75.0       1.00      1.00      1.00         3\n\n    accuracy                           1.00        18\n   macro avg       1.00      1.00      1.00        18\nweighted avg       1.00      1.00      1.00        18\n"
+    },
+    {
+      "transform": "ASD",
+      "axis": "z",
+      "n_samples": 60,
+      "n_features": 65,
+      "pca_explained_variance_ratio": [
+        0.6144065479173858,
+        0.08620201564983279,
+        0.053192218011711874,
+        0.03878477202754694,
+        0.03379577633747325
+      ],
+      "regression_r2": 0.9895086956521739,
+      "regression_rmse": 4.0935246969383785,
+      "classification_accuracy": 1.0,
+      "classification_report": "              precision    recall  f1-score   support\n\n         0.0       1.00      1.00      1.00         5\n       100.0       1.00      1.00      1.00         5\n        25.0       1.00      1.00      1.00         3\n        50.0       1.00      1.00      1.00         2\n        75.0       1.00      1.00      1.00         3\n\n    accuracy                           1.00        18\n   macro avg       1.00      1.00      1.00        18\nweighted avg       1.00      1.00      1.00        18\n"
+    },
+    {
+      "transform": "FFT",
+      "axis": "total",
+      "n_samples": 60,
+      "n_features": 2501,
+      "pca_explained_variance_ratio": [
+        0.05622704558530135,
+        0.05057064285353433,
+        0.04801076819642129,
+        0.04694129993941786,
+        0.04312684012354014
+      ],
+      "regression_r2": 0.9428130434782609,
+      "regression_rmse": 9.557210773953758,
+      "classification_accuracy": 0.8888888888888888,
+      "classification_report": "              precision    recall  f1-score   support\n\n         0.0       1.00      0.60      0.75         5\n       100.0       1.00      1.00      1.00         5\n        25.0       0.75      1.00      0.86         3\n        50.0       0.67      1.00      0.80         2\n        75.0       1.00      1.00      1.00         3\n\n    accuracy                           0.89        18\n   macro avg       0.88      0.92      0.88        18\nweighted avg       0.92      0.89      0.88        18\n"
+    },
+    {
+      "transform": "FFT",
+      "axis": "x",
+      "n_samples": 60,
+      "n_features": 2501,
+      "pca_explained_variance_ratio": [
+        0.1184187318389982,
+        0.027735600391250472,
+        0.0256612050339301,
+        0.02526825881029658,
+        0.024039707070750028
+      ],
+      "regression_r2": 0.6446320652173914,
+      "regression_rmse": 23.82439007613836,
+      "classification_accuracy": 0.6111111111111112,
+      "classification_report": "              precision    recall  f1-score   support\n\n         0.0       1.00      0.40      0.57         5\n       100.0       1.00      0.80      0.89         5\n        25.0       0.25      0.33      0.29         3\n        50.0       0.40      1.00      0.57         2\n        75.0       0.67      0.67      0.67         3\n\n    accuracy                           0.61        18\n   macro avg       0.66      0.64      0.60        18\nweighted avg       0.75      0.61      0.63        18\n"
+    },
+    {
+      "transform": "FFT",
+      "axis": "y",
+      "n_samples": 60,
+      "n_features": 2501,
+      "pca_explained_variance_ratio": [
+        0.11541676167463531,
+        0.026967557012325453,
+        0.025711291229065895,
+        0.02520564007418173,
+        0.023982968757058614
+      ],
+      "regression_r2": 0.5233184782608695,
+      "regression_rmse": 27.59286718419172,
+      "classification_accuracy": 0.7777777777777778,
+      "classification_report": "              precision    recall  f1-score   support\n\n         0.0       1.00      0.80      0.89         5\n       100.0       1.00      0.80      0.89         5\n        25.0       0.67      0.67      0.67         3\n        50.0       0.50      1.00      0.67         2\n        75.0       0.67      0.67      0.67         3\n\n    accuracy                           0.78        18\n   macro avg       0.77      0.79      0.76        18\nweighted avg       0.83      0.78      0.79        18\n"
+    },
+    {
+      "transform": "FFT",
+      "axis": "z",
+      "n_samples": 60,
+      "n_features": 2501,
+      "pca_explained_variance_ratio": [
+        0.114261061234214,
+        0.027469354979061826,
+        0.025828428089882994,
+        0.025240253678104372,
+        0.024615712151488136
+      ],
+      "regression_r2": 0.7391608695652174,
+      "regression_rmse": 20.41122376428115,
+      "classification_accuracy": 0.5,
+      "classification_report": "              precision    recall  f1-score   support\n\n         0.0       1.00      0.20      0.33         5\n       100.0       1.00      0.40      0.57         5\n        25.0       0.29      0.67      0.40         3\n        50.0       0.50      0.50      0.50         2\n        75.0       0.50      1.00      0.67         3\n\n    accuracy                           0.50        18\n   macro avg       0.66      0.55      0.49        18\nweighted avg       0.74      0.50      0.48        18\n"
+    }
+  ]
+}
